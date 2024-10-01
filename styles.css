@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    color: #666666;
+}
+
+.americanas{
+    background: rgb(248, 0, 50);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 80px;
+}
+
+#main-login{
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+#subtitle
+{
+    font-size: 14px;
+    padding: 10px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#login-form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-head
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.form-input
+{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 15px;
+}
+
+.form-input label
+{
+    margin-bottom: 5px;
+}
+
+#redefine-btn
+{
+    border: none;
+    background: transparent;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: lowercase;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(102, 102, 102);
+}
+
+.ast
+{
+    padding: 0 2px 0 0;
+    color: red;
+}
+
+.login-input
+{
+    height: 25px;
+    padding: 10px 5px;
+    margin: 5px 0px 10px 0px;
+
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.login-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-text{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #666666;
+}
+
+#form-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-style: bold;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 14px;
+    background-color: #F80032;
+    border: none;
+    border-radius: 6px;
+}
+
+.login-option1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-option1 u{
+    cursor: pointer;
+}
